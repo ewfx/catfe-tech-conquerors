@@ -1,0 +1,4 @@
+optimum
+onnx
+onnxruntime
+fastapi[standard]
