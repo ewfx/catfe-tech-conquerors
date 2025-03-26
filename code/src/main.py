@@ -66,7 +66,12 @@ async def predict_endpoint(inputs: ModelInput):
     inputs = tokenizer(inputs, return_tensors="pt", max_length=MAX_LEN, padding="max_length")
     outputs = model.generate(**inputs, max_new_tokens=MAX_LEN)
     outputs = tokenizer.batch_decode(outputs, skip_special_tokens=True)
-    outputs = list(map(lambda text: prettify_output(text), outputs))
+
+    try:
+        outputs = list(map(lambda text: prettify_output(text), outputs))
+    
+    except Exception as e:
+        pass
 
     return {
         'outputs': outputs
