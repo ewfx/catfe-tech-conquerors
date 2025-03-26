@@ -19,7 +19,7 @@ The solution provided makes an attempt to handle the use case of generating test
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [https://github.com/ewfx/catfe-tech-conquerors/tree/main/artifacts/demo](#) (if applicable)  
 🖼️ Screenshots:
 
 ![https://github.com/ewfx/catfe-tech-conquerors/blob/main/artifacts/arch/Diagram.png](link-to-image)
